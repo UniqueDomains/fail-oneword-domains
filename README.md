@@ -71,7 +71,7 @@ print(df.head())
 | data.fail      | resell    | —         | —             | 70             | 56     | 4      | NameCheap, Inc.       |
 | power.fail     | premium   | $128.70   | $128.70       | 98             | 62     | 5      | namecheap             |
 | clear.fail     | available | $14.99    | $46.99        | 90             | 49     | 5      | name.com              |
-| fast.fail      | resell    | —         | —             | 82             | 53     | 4      | Go China Domains, LLC |
+| fast.fail      | resell    | —         | —             | 82             | 52     | 4      | Go China Domains, LLC |
 | ace.fail       | premium   | $82.50    | $82.50        | 88             | 57     | 3      | name.com              |
 | snap.fail      | available | $14.99    | $46.99        | 90             | 46     | 4      | name.com              |
 | one.fail       | resell    | —         | —             | 132            | 49     | 3      | Sav.com, LLC          |
@@ -81,7 +81,7 @@ print(df.head())
 | athletics.fail | premium   | $42.90    | $42.90        | 69             | 52     | 9      | namecheap             |
 | creator.fail   | available | $14.99    | $46.99        | 70             | 45     | 7      | name.com              |
 | token.fail     | resell    | —         | —             | 114            | 46     | 5      | Dynadot Inc           |
-| design.fail    | premium   | $123.75   | $123.75       | 108            | 50     | 6      | name.com              |
+| digital.fail   | premium   | $82.50    | $82.50        | 100            | 50     | 7      | name.com              |
 | event.fail     | available | $50.98    | —             | 96             | 44     | 5      | namecheap             |
 | quick.fail     | resell    | —         | —             | 72             | 41     | 5      | Porkbun LLC           |
 
