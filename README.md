@@ -14,9 +14,9 @@ Daily-updated public extract of available and resale .fail one-word domains from
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **12,277 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 12,277 domains
+**Public extract:** 1,000 rows · **Live catalog:** 12,277 domains · **Median ask:** $20.52 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-01  
+**Last updated:** 2026-05-06  
 **Canonical page:** `https://unique.domains/domains/tld/fail`  
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
-| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
-| shortcuts.fail   | available | $14.99    | —             | 48             | 41     | 10     | name.com  |
-| jobs.fail        | premium   | $123.75   | —             | 79             | 42     | 4      | name.com  |
-| aliens.fail      | available | $14.99    | —             | 56             | 35     | 6      | name.com  |
-| tickets.fail     | premium   | $78.54    | $78.54        | 64             | 34     | 7      | namesilo  |
-| spectra.fail     | available | $14.99    | —             | 62             | 34     | 7      | name.com  |
-| partners.fail    | premium   | $82.50    | —             | 61             | 32     | 8      | name.com  |
-| William.fail     | available | $50.98    | —             | 74             | 31     | 7      | namecheap |
-| solutions.fail   | premium   | $82.50    | —             | 56             | 31     | 9      | name.com  |
-| letsgo.fail      | available | $14.99    | —             | 57             | 31     | 7      | name.com  |
-| Jim.fail         | premium   | $92.40    | $92.40        | 78             | 28     | 3      | namecheap |
-| maps.fail        | available | $14.99    | —             | 56             | 31     | 4      | name.com  |
-| has.fail         | premium   | $82.50    | —             | 60             | 26     | 3      | name.com  |
-| slots.fail       | available | $14.99    | —             | 49             | 31     | 5      | name.com  |
-| loans.fail       | premium   | $118.80   | $118.80       | 58             | 24     | 5      | namesilo  |
-| inspiration.fail | available | $14.99    | —             | 88             | 30     | 11     | name.com  |
-| gives.fail       | premium   | $123.75   | —             | 52             | 12     | 5      | name.com  |
-| spaces.fail      | available | $14.99    | —             | 54             | 30     | 6      | name.com  |
-| cams.fail        | available | $14.99    | —             | 52             | 29     | 4      | name.com  |
-| trades.fail      | available | $14.99    | —             | 71             | 26     | 6      | name.com  |
-| echoes.fail      | available | $14.99    | —             | 56             | 24     | 6      | name.com  |
+| domain         | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
+| -------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
+| finals.fail    | available | $14.99    | —             | 80             | 7      | 6      | name.com  |
+| getup.fail     | available | $14.99    | —             | 82             | 14     | 6      | name.com  |
+| useit.fail     | available | $14.99    | —             | 94             | 7      | 6      | name.com  |
+| playin.fail    | available | $14.99    | —             | 80             | 10     | 7      | name.com  |
+| makeit.fail    | available | $14.99    | —             | 82             | 22     | 7      | name.com  |
+| pierogi.fail   | available | $14.99    | —             | 82             | 7      | 7      | name.com  |
+| getlife.fail   | available | $14.99    | —             | 80             | 5      | 8      | name.com  |
+| leaveon.fail   | available | $14.99    | —             | 80             | 1      | 8      | name.com  |
+| messages.fail  | available | $14.99    | —             | 80             | 16     | 8      | name.com  |
+| rumcake.fail   | available | $14.99    | —             | 81             | 3      | 8      | name.com  |
+| shortcuts.fail | available | $14.99    | —             | 48             | 41     | 10     | name.com  |
+| jobs.fail      | premium   | $123.75   | —             | 79             | 42     | 4      | name.com  |
+| aliens.fail    | available | $14.99    | —             | 56             | 35     | 6      | name.com  |
+| tickets.fail   | premium   | $78.54    | $78.54        | 64             | 34     | 7      | namesilo  |
+| spectra.fail   | available | $14.99    | —             | 62             | 34     | 7      | name.com  |
+| partners.fail  | premium   | $82.50    | —             | 61             | 32     | 8      | name.com  |
+| William.fail   | available | $50.98    | —             | 74             | 31     | 7      | namecheap |
+| solutions.fail | premium   | $82.50    | —             | 56             | 31     | 9      | name.com  |
+| letsgo.fail    | available | $14.99    | —             | 57             | 31     | 7      | name.com  |
+| Jim.fail       | premium   | $92.40    | $92.40        | 78             | 28     | 3      | namecheap |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -91,13 +91,13 @@ These rows are selected to show a more legible mix of visible asks, resale conte
 
 You are seeing the public sample. Unique Domains keeps the exact search context and adds saved workflows, deeper filters, and alerting.
 
-| GitHub extract          | Unique Domains                                   |
-| ----------------------- | ------------------------------------------------ |
-| 1,000-row public sample | 12,277 live domains                              |
-| Static CSV / JSON       | live search and daily refresh                    |
-| Basic exported fields   | deeper price, demand, risk, and workflow context |
-| No persistence          | Radar, saved search, and alerts                  |
-| No founder workflow     | Project, shortlist, and next-step workflow       |
+| GitHub extract          | Unique Domains                             |
+| ----------------------- | ------------------------------------------ |
+| 1,000-row public sample | 12,277 live domains                        |
+| Static CSV / JSON       | live search and daily refresh              |
+| Basic exported fields   | 0 high-demand names under $2,500           |
+| No persistence          | Radar, saved search, and alerts            |
+| No founder workflow     | Project, shortlist, and next-step workflow |
 
 If this sample already feels useful, Unique Domains is where the exact search becomes a workflow.
 
@@ -120,13 +120,12 @@ See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This repository follows the exact public search represented by the canonical page above.
+This selection is entirely made up of one-word .fail domains. That makes the set unusual by default: the extension carries a clear negative or ironic tone, so the strongest names are the ones where that tone is intentional, memorable, or commercially useful. Examples such as Acup.fail, finals.fail, jewels.fail, popup.fail, and matcha.fail show the range from broad dictionary words to more niche terms. For founders, the key question is whether the name is easy to explain and own with confidence. For investors, the key question is whether the word-extension pairing is sharp enough to justify the ask and any ongoing renewal exposure.
 
-- This repository is a public extract, not the full live catalog.
-- Counts, prices, and statuses can change over time.
-- Scores are decision-support signals, not guarantees of resale value.
-- Trademark, SEO, and risk signals should be treated as screening inputs, not legal or specialist advice.
-- Unique Domains contains deeper filters, monitoring, and decision workflows than this public extract.
+- All names in this selection use the .fail extension
+- Median ask across the set is 20.52
+- Best fits usually have intentional irony or critique
+- Check renewal terms before treating a low ask as cheap
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -143,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-05-01. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-05-06. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
