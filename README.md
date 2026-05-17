@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .fail one-word domains from
 
 **Public extract:** 1,000 rows · **Live catalog:** 12,280 domains · **Median ask:** $20.52 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-15  
+**Last updated:** 2026-05-17  
 **Canonical page:** `https://unique.domains/domains/tld/fail`  
 **Best for:** founders, investors, studios
 
@@ -65,10 +65,10 @@ print(df.head())
 | domain         | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
 | -------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
 | finals.fail    | available | $14.99    | —             | 80             | 7      | 6      | name.com  |
-| getup.fail     | available | $14.99    | —             | 82             | 14     | 6      | name.com  |
+| getup.fail     | available | $14.99    | —             | 82             | 15     | 6      | name.com  |
 | useit.fail     | available | $14.99    | —             | 94             | 7      | 6      | name.com  |
 | playin.fail    | available | $14.99    | —             | 80             | 10     | 7      | name.com  |
-| makeit.fail    | available | $14.99    | —             | 82             | 22     | 7      | name.com  |
+| makeit.fail    | available | $14.99    | —             | 82             | 21     | 7      | name.com  |
 | pierogi.fail   | available | $14.99    | —             | 82             | 7      | 7      | name.com  |
 | getlife.fail   | available | $14.99    | —             | 80             | 5      | 8      | name.com  |
 | leaveon.fail   | available | $14.99    | —             | 80             | 1      | 8      | name.com  |
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-05-15. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-05-17. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
