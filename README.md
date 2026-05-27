@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .fail one-word domains from
 
 **Public extract:** 1,000 rows · **Live catalog:** 12,280 domains · **Median ask:** $20.52 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-17  
+**Last updated:** 2026-05-27  
 **Canonical page:** `https://unique.domains/domains/tld/fail`  
 **Best for:** founders, investors, studios
 
@@ -73,13 +73,13 @@ print(df.head())
 | getlife.fail   | available | $14.99    | —             | 80             | 5      | 8      | name.com  |
 | leaveon.fail   | available | $14.99    | —             | 80             | 1      | 8      | name.com  |
 | messages.fail  | available | $14.99    | —             | 80             | 16     | 8      | name.com  |
-| rumcake.fail   | available | $14.99    | —             | 81             | 3      | 8      | name.com  |
+| rumcake.fail   | available | $14.99    | —             | 81             | 2      | 8      | name.com  |
 | shortcuts.fail | available | $14.99    | —             | 48             | 41     | 10     | name.com  |
 | jobs.fail      | premium   | $123.75   | —             | 79             | 42     | 4      | name.com  |
 | aliens.fail    | available | $14.99    | —             | 56             | 35     | 6      | name.com  |
 | tickets.fail   | premium   | $78.54    | $78.54        | 64             | 34     | 7      | namesilo  |
 | spectra.fail   | available | $14.99    | —             | 62             | 34     | 7      | name.com  |
-| partners.fail  | premium   | $82.50    | —             | 61             | 32     | 8      | name.com  |
+| partners.fail  | premium   | $82.50    | —             | 61             | 31     | 8      | name.com  |
 | William.fail   | available | $50.98    | —             | 74             | 31     | 7      | namecheap |
 | solutions.fail | premium   | $82.50    | —             | 56             | 31     | 9      | name.com  |
 | letsgo.fail    | available | $14.99    | —             | 57             | 31     | 7      | name.com  |
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-05-17. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-05-27. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
