@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .fail one-word domains from
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **12,280 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 12,280 domains · **Median ask:** $20.52 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 12,280 domains · **Median ask:** $20.54 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-27  
-**Canonical page:** `https://unique.domains/domains/tld/fail`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/fail`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .FAIL one-word domain 
 
 ### Files
 
-- `fail.csv` — public CSV extract (1,000 rows)
-- `fail.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `fail.csv`, public CSV extract (1,000 rows)
+- `fail.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain         | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
-| -------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
-| finals.fail    | available | $14.99    | —             | 80             | 7      | 6      | name.com  |
-| getup.fail     | available | $14.99    | —             | 82             | 15     | 6      | name.com  |
-| useit.fail     | available | $14.99    | —             | 94             | 7      | 6      | name.com  |
-| playin.fail    | available | $14.99    | —             | 80             | 10     | 7      | name.com  |
-| makeit.fail    | available | $14.99    | —             | 82             | 21     | 7      | name.com  |
-| pierogi.fail   | available | $14.99    | —             | 82             | 7      | 7      | name.com  |
-| getlife.fail   | available | $14.99    | —             | 80             | 5      | 8      | name.com  |
-| leaveon.fail   | available | $14.99    | —             | 80             | 1      | 8      | name.com  |
-| messages.fail  | available | $14.99    | —             | 80             | 16     | 8      | name.com  |
-| rumcake.fail   | available | $14.99    | —             | 81             | 2      | 8      | name.com  |
-| shortcuts.fail | available | $14.99    | —             | 48             | 41     | 10     | name.com  |
-| jobs.fail      | premium   | $123.75   | —             | 79             | 42     | 4      | name.com  |
-| aliens.fail    | available | $14.99    | —             | 56             | 35     | 6      | name.com  |
-| tickets.fail   | premium   | $78.54    | $78.54        | 64             | 34     | 7      | namesilo  |
-| spectra.fail   | available | $14.99    | —             | 62             | 34     | 7      | name.com  |
-| partners.fail  | premium   | $82.50    | —             | 61             | 31     | 8      | name.com  |
-| William.fail   | available | $50.98    | —             | 74             | 31     | 7      | namecheap |
-| solutions.fail | premium   | $82.50    | —             | 56             | 31     | 9      | name.com  |
-| letsgo.fail    | available | $14.99    | —             | 57             | 31     | 7      | name.com  |
-| Jim.fail       | premium   | $92.40    | $92.40        | 78             | 28     | 3      | namecheap |
+| domain     | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                   |
+| ---------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------------------------------------- |
+| ago.fail   | available | $14.99    | $46.99        | medium         | low    | 3      | name.com                                    |
+| lose.fail  | resell    | —         | —             | medium         | low    | 4      | GoDaddy Online Services Cayman Islands Ltd. |
+| bag.fail   | premium   | $38.94    | $38.94        | high           | low    | 3      | namesilo                                    |
+| Ava.fail   | available | $14.99    | —             | high           | medium | 3      | name.com                                    |
+| daily.fail | resell    | —         | —             | high           | low    | 5      | GoDaddy.com, LLC                            |
+| bud.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
+| lcd.fail   | available | $14.99    | —             | high           | low    | 3      | name.com                                    |
+| but.fail   | premium   | $38.94    | $38.94        | high           | low    | 3      | namesilo                                    |
+| UPC.fail   | available | $14.99    | —             | high           | low    | 3      | name.com                                    |
+| bye.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
+| acre.fail  | available | $14.99    | —             | medium         | low    | 4      | name.com                                    |
+| cod.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
+| babe.fail  | available | $14.99    | —             | high           | low    | 4      | name.com                                    |
+| cot.fail   | premium   | $38.94    | $38.94        | high           | low    | 3      | namesilo                                    |
+| barn.fail  | available | $14.99    | —             | high           | low    | 4      | name.com                                    |
+| due.fail   | premium   | $82.50    | —             | high           | low    | 3      | name.com                                    |
+| bass.fail  | available | $14.99    | —             | medium         | low    | 4      | name.com                                    |
+| err.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
+| belt.fail  | available | $14.99    | —             | high           | low    | 4      | name.com                                    |
+| eye.fail   | premium   | $38.94    | $38.94        | medium         | low    | 3      | namesilo                                    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This selection is entirely made up of one-word .fail domains. That makes the set unusual by default: the extension carries a clear negative or ironic tone, so the strongest names are the ones where that tone is intentional, memorable, or commercially useful. Examples such as Acup.fail, finals.fail, jewels.fail, popup.fail, and matcha.fail show the range from broad dictionary words to more niche terms. For founders, the key question is whether the name is easy to explain and own with confidence. For investors, the key question is whether the word-extension pairing is sharp enough to justify the ask and any ongoing renewal exposure.
+This list features one-word .fail domain names spanning everyday nouns, verbs, and short phrases such as watches.fail, gearup.fail, and thanksgiving.fail. With a median ask near $20.54 across 12,280 names, these domains suit buyers seeking short, memorable options in a distinctive TLD. Because .fail carries an unconventional tone, pricing tends to stay accessible, making it easier to test brandable ideas without heavy upfront cost.
 
-- All names in this selection use the .fail extension
-- Median ask across the set is 20.52
-- Best fits usually have intentional irony or critique
-- Check renewal terms before treating a low ask as cheap
+- 12,280 one-word .fail domains available across many themes
+- Median ask around $20.54 per domain
+- Short, single-word names that are easy to recall
+- Unconventional TLD keeps pricing accessible for testing
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-05-27. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
