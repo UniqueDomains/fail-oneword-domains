@@ -1,10 +1,10 @@
-# Available .FAIL One-Word Domains (12,280)
+# Available .FAIL One-Word Domains (12,286)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-12%2C280%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-12%2C286%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .fail one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **12,280 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **12,286 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 12,280 domains · **Median ask:** $20.54 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 12,286 domains · **Median ask:** $19.92 · **High-demand under $2,500:** 2
 
-**Last updated:** 2026-07-07
+**Last updated:** 2026-08-06
 **Canonical page:** `https://unique.domains/domains/tld/fail`
 **Best for:** founders, investors, studios
 
@@ -72,17 +72,17 @@ print(df.head())
 | bud.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
 | lcd.fail   | available | $14.99    | —             | high           | low    | 3      | name.com                                    |
 | but.fail   | premium   | $38.94    | $38.94        | high           | low    | 3      | namesilo                                    |
-| UPC.fail   | available | $14.99    | —             | high           | low    | 3      | name.com                                    |
+| lii.fail   | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
 | bye.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
-| acre.fail  | available | $14.99    | —             | medium         | low    | 4      | name.com                                    |
+| lxx.fail   | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
 | cod.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
-| babe.fail  | available | $14.99    | —             | high           | low    | 4      | name.com                                    |
+| UPC.fail   | available | $14.99    | —             | high           | low    | 3      | name.com                                    |
 | cot.fail   | premium   | $38.94    | $38.94        | high           | low    | 3      | namesilo                                    |
-| barn.fail  | available | $14.99    | —             | high           | low    | 4      | name.com                                    |
+| xcl.fail   | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
 | due.fail   | premium   | $82.50    | —             | high           | low    | 3      | name.com                                    |
-| bass.fail  | available | $14.99    | —             | medium         | low    | 4      | name.com                                    |
+| acre.fail  | available | $14.99    | —             | medium         | low    | 4      | name.com                                    |
 | err.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
-| belt.fail  | available | $14.99    | —             | high           | low    | 4      | name.com                                    |
+| alto.fail  | available | $14.99    | $46.99        | low            | low    | 4      | name.com                                    |
 | eye.fail   | premium   | $38.94    | $38.94        | medium         | low    | 3      | namesilo                                    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
@@ -93,9 +93,9 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 12,280 live domains                        |
+| 1,000-row public sample | 12,286 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
-| Basic exported fields   | 0 high-demand names under $2,500           |
+| Basic exported fields   | 2 high-demand names under $2,500           |
 | No persistence          | Radar, saved search, and alerts            |
 | No founder workflow     | Project, shortlist, and next-step workflow |
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-08-06. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
