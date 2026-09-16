@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .fail one-word domains from
 
 **Public extract:** 1,000 rows · **Live catalog:** 24,416 domains · **Median ask:** $22.30 · **High-demand under $2,500:** 2
 
-**Last updated:** 2026-09-15
+**Last updated:** 2026-09-16
 **Canonical page:** `https://unique.domains/domains/tld/fail`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain     | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                   |
-| ---------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------------------------------------- |
-| ago.fail   | available | $14.99    | $46.99        | medium         | low    | 3      | name.com                                    |
-| lose.fail  | resell    | —         | —             | medium         | low    | 4      | GoDaddy Online Services Cayman Islands Ltd. |
-| aug.fail   | premium   | $78.54    | $78.54        | low            | low    | 3      | namesilo                                    |
-| Ava.fail   | available | $14.99    | —             | high           | medium | 3      | name.com                                    |
-| daily.fail | resell    | —         | —             | high           | low    | 5      | GoDaddy.com, LLC                            |
-| bag.fail   | premium   | $38.94    | $38.94        | medium         | low    | 3      | namesilo                                    |
-| azo.fail   | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
-| bud.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
-| lcd.fail   | available | $14.99    | —             | high           | low    | 3      | name.com                                    |
-| but.fail   | premium   | $38.94    | $38.94        | high           | low    | 3      | namesilo                                    |
-| lii.fail   | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
-| bye.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
-| lxx.fail   | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
-| cod.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
-| UPC.fail   | available | $14.99    | —             | high           | low    | 3      | name.com                                    |
-| cot.fail   | premium   | $38.94    | $38.94        | high           | low    | 3      | namesilo                                    |
-| xcl.fail   | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
-| due.fail   | premium   | $82.50    | —             | high           | low    | 3      | name.com                                    |
-| acre.fail  | available | $14.99    | —             | medium         | low    | 4      | name.com                                    |
-| err.fail   | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
+| domain         | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                   |
+| -------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------------------------------------- |
+| christmas.fail | premium   | $78.54    | $78.54        | high           | low    | 9      | namesilo                                    |
+| beauty.fail    | premium   | $118.80   | $118.80       | high           | low    | 6      | namesilo                                    |
+| ago.fail       | available | $14.99    | $46.99        | medium         | low    | 3      | name.com                                    |
+| lose.fail      | resell    | —         | —             | medium         | low    | 4      | GoDaddy Online Services Cayman Islands Ltd. |
+| aug.fail       | premium   | $78.54    | $78.54        | low            | low    | 3      | namesilo                                    |
+| Ava.fail       | available | $14.99    | —             | high           | medium | 3      | name.com                                    |
+| daily.fail     | resell    | —         | —             | high           | low    | 5      | GoDaddy.com, LLC                            |
+| bag.fail       | premium   | $38.94    | $38.94        | medium         | low    | 3      | namesilo                                    |
+| azo.fail       | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
+| bud.fail       | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
+| lcd.fail       | available | $14.99    | —             | high           | low    | 3      | name.com                                    |
+| but.fail       | premium   | $38.94    | $38.94        | high           | low    | 3      | namesilo                                    |
+| lii.fail       | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
+| bye.fail       | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
+| lxx.fail       | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
+| cod.fail       | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                                    |
+| UPC.fail       | available | $14.99    | —             | high           | low    | 3      | name.com                                    |
+| cot.fail       | premium   | $38.94    | $38.94        | high           | low    | 3      | namesilo                                    |
+| xcl.fail       | available | $14.99    | $46.99        | low            | low    | 3      | name.com                                    |
+| due.fail       | premium   | $82.50    | —             | high           | low    | 3      | name.com                                    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -115,6 +115,7 @@ If this sample already feels useful, Unique Domains is where the exact search be
 - `registrar`, Registrar name when known.
 - `created_at`, Creation timestamp when known.
 - `expires_at`, Expiry timestamp when known.
+- `status_verified_at`, When status was last established against the registry. Null means never checked.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
@@ -132,6 +133,7 @@ See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 ## 🔄 Update policy
 
 - This repository is refreshed regularly from the same export pipeline used for public dataset repos.
+- The snapshot date above is when this file was written, not when each row was checked. Read `status_verified_at` for that: a name whose status was last established months ago is exported with its real date rather than the snapshot's.
 - The README count targets the live catalog count from the public landing response when available.
 - The CSV and JSON files contain the public extract only and may not match the full live catalog size.
 - Stable historical references should be published via GitHub Releases outside this repository snapshot.
@@ -142,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-09-15. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .FAIL One-Word Domains*. Version 2026-09-16. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
